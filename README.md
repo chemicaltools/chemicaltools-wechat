@@ -1,5 +1,5 @@
 # Chemical Tools Wechat Official Account (化学e+微信公众号版)
-[![Chinese version](https://jaywcjlove.github.io/sb/lang/chinese.svg)]
+![Chinese version](https://jaywcjlove.github.io/sb/lang/chinese.svg)
 
 Essential tools for chemistry students on a Wechat official account developed with PHP.
 
@@ -10,7 +10,7 @@ Essential tools for chemistry students on a Wechat official account developed wi
 ## Usage
 Use Wechat to scan the QRCode:
 
-[![QRCode](https://i.loli.net/2018/07/06/5b3f4bda1019b.png)]
+![QRCode](https://i.loli.net/2018/07/06/5b3f4bda1019b.png)
 
 ## Awards
 * 2017年华东师范大学计算机应用能力大赛一等奖
