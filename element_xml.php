@@ -1,5 +1,6 @@
 <?php
-$xmlstring = <<<XML
+function getinfo($type){
+	$xmlstring = <<<XML
 <?xml version="1.0" encoding="utf-8"?>
 <string-array>
     <elementNameArray>
@@ -724,40 +725,28 @@ $xmlstring = <<<XML
 	</pinyin>
 </string-array>
 XML;
-$xml=simplexml_load_string($xmlstring);
-$elementNameArray=$xml->elementNameArray->item; 
-$elementAbbrArray=$xml->elementAbbrArray->item;
-$elementMassArray=$xml->elementMassArray->item;
-$elementIUPACArray=$xml->elementIUPACArray->item; 
-$elementOriginArray=$xml->elementOriginArray->item; 
-$elementpinyin=$xml->pinyin->item; 
-require 'pinyin.php';
-
-function searchelement($input){
-	$elementNumber=0;
-	global $elementNameArray,$elementAbbrArray,$elementIUPACArray,$elementpinyin;
-	for($i=0;$i<118;$i++) {
-		if ($input==(string)($i+1)){
-			$elementNumber=$i+1;
+	$xml=simplexml_load_string($xmlstring);
+	switch(strtolower($type)){
+		case "name":
+			$array=$xml->elementNameArray->item; 
 			break;
-		}else if($input==($elementNameArray[$i])){
-			$elementNumber=$i+1;
+		case "abbr":
+			$array=$xml->elementAbbrArray->item;
 			break;
-		}else if(strtolower($input)==strtolower($elementAbbrArray[$i])){
-			$elementNumber=$i+1;
+		case "mass":
+			$array=$xml->elementMassArray->item;
 			break;
-		}else if(strtolower($input)==strtolower($elementIUPACArray[$i])){
-			$elementNumber=$i+1;
+		case "iupac":
+			$array=$xml->elementIUPACArray->item; 
 			break;
-		}
+		case "origin":
+			$array=$xml->elementOriginArray->item;
+			break;
+		case "pinyin":
+			$array=$xml->pinyin->item; 
+			break;
+		default:
+			$array=False;
 	}
-	if($elementNumber==0){
-		for($i=0;$i<118;$i++){
-			if(pinyin($input)==$elementpinyin[$i]||strtolower($input)==$elementpinyin[$i]){
-				$elementNumber=$i+1;
-				break;
-			}
-		}
-	}
-	return $elementNumber;
+	return $array;
 }
