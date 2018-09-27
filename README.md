@@ -5,7 +5,7 @@ Essential tools for chemistry students on a Wechat official account developed wi
 
 **Author**: Jinzhe Zeng
 
-**Email**: njzjz@qq.com 10154601140@stu.ecnu.edu.cn
+**Email**: jzzeng@stu.ecnu.edu.cn
 
 ## Usage
 Use Wechat to scan the QRCode:
