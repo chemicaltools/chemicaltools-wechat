@@ -16,3 +16,4 @@ Use Wechat to scan the QRCode:
 * 2017年华东师范大学计算机应用能力大赛一等奖
 * 2017年（第九届）上海市大学生计算机应用能力大赛二等奖
 * 2017年（第10届）中国大学生计算机设计大赛二等奖
+* The Third Prize of Invention & Innovation in the 24th Shanghai University Student Creation & Invention "Kechuang Cup" (第二十四届上海高校学生创造发明“科创杯”发明创新三等奖)
