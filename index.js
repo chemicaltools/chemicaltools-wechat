@@ -1,5 +1,7 @@
-var chemicaltoolsbot = require('chemicaltoolsbot')
+var chemicaltoolsbot = require('./chemicaltoolsbot')
 var wechat = require('wechat');
+var express = require('express')
+var app = express()
 var config = {
     token: 'zengjinzhe',
     appid: 'wx0cd8b5047421a3aa',
@@ -7,6 +9,8 @@ var config = {
     checkSignature: false
   };
 app.use(express.query());
-app.use('/wechat', wechat(config).text(function (message, req, res, next) {
-    res.reply(chemicaltoolsbot.reply(message))
+app.use('/wechat', wechat(config, function (req, res, next) {
+    var message = req.weixin;
+    res.reply(chemicaltoolsbot.reply(message.Content))
 }))
+app.listen(3000)
