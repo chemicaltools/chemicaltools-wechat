@@ -9,7 +9,7 @@ var config = {
     checkSignature: false
   };
 app.use(express.query());
-app.use('/wechat', wechat(config, function (req, res, next) {
+app.use('/', wechat(config, function (req, res, next) {
     var message = req.weixin;
     res.reply(chemicaltoolsbot.reply(message.Content))
 }))
