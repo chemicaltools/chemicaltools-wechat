@@ -1,11 +1,17 @@
 # Chemical Tools Wechat Official Account (化学e+微信公众号版)
 ![Chinese version](https://jaywcjlove.github.io/sb/lang/chinese.svg)
 
-Essential tools for chemistry students on a Wechat official account developed with PHP.
+Essential tools for chemistry students on a Wechat official account, developed with Node.js and deployed with [Now](https://zeit.co/now).
 
 **Author**: Jinzhe Zeng
 
 **Email**: jzzeng@stu.ecnu.edu.cn
+
+## Requirements
+* [chemicaltools-js](https://github.com/njzjz/chemicaltools-js)
+* [wechat](https://github.com/node-webot/wechat)
+* [string-format](https://github.com/davidchambers/string-format)
+* [express](https://github.com/expressjs/express)
 
 ## Usage
 Use Wechat to scan the QRCode:
