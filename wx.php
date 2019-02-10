@@ -1,8 +1,8 @@
 <?php
 define("TOKEN", "zengjinzhe");
 $wechatObj = new wechatCallbackapi();
-//$wechatObj->valid();
-$wechatObj->responseMsg();
+$wechatObj->valid();
+//$wechatObj->responseMsg();
 
 class wechatCallbackapi
 {
