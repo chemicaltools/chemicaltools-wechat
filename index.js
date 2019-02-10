@@ -13,4 +13,5 @@ app.use('/wechat', wechat(config, function (req, res, next) {
     var message = req.weixin;
     res.reply(chemicaltoolsbot.reply(message.Content))
 }))
-app.listen(3000)
+
+module.exports = app
