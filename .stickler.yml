@@ -1,9 +1,5 @@
 linters:
-  phpcs:
-    standard: PSR2
-    fixer: true
-files:
-  ignore:
-    - 'vendor/*'
+  jshint:
+  standardjs:
 fixers:
   enable: true
