@@ -1,4 +1,7 @@
 # Chemical Tools Wechat Official Account (化学e+微信公众号版)
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/njzjz/Chemical-Tools-wechat.svg)](https://greenkeeper.io/)
+
 ![Chinese version](https://jaywcjlove.github.io/sb/lang/chinese.svg)
 
 Essential tools for chemistry students on a Wechat official account, developed with Node.js and deployed with [Now](https://zeit.co/now).
