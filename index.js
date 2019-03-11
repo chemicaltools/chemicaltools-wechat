@@ -1,4 +1,4 @@
-var chemicaltoolsbot = require('chemicaltoolsbot-bot')
+var chemicaltoolsbot = require('chemicaltools-bot')
 var wechat = require('wechat');
 var express = require('express')
 var app = express()
