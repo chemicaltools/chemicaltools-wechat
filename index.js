@@ -1,4 +1,4 @@
-var chemicaltoolsbot = require('./chemicaltoolsbot')
+var chemicaltoolsbot = require('chemicaltoolsbot-bot')
 var wechat = require('wechat');
 var express = require('express')
 var app = express()
@@ -11,7 +11,7 @@ var config = {
 app.use(express.query());
 app.use('/', wechat(config, function (req, res, next) {
     var message = req.weixin;
-    res.reply(chemicaltoolsbot.reply(message.Content))
+    res.reply(chemicaltoolsbot(message.Content, 'zh'))
 }))
 
 module.exports = app
