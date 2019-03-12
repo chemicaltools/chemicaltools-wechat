@@ -43,10 +43,10 @@ bytes@3.0.0:
   resolved "http://registry.npm.taobao.org/bytes/download/bytes-3.0.0.tgz#d32815404d689699f85a4ea4fa8755dd13a96048"
   integrity sha1-0ygVQE1olpn4Wk6k+odV3ROpYEg=
 
-chemicaltools-bot@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/chemicaltools-bot/-/chemicaltools-bot-1.0.2.tgz#04d7b71f9f394a5e8fb22e204db822671dd2ce52"
-  integrity sha512-KiJpXCRUokGtqFK5aqwN8hnjwpNiZWQ8vSVibV3hST5eqPFZJolK2AiBUiREIyPBoUs3ed+b1cftKUpQp9ULzg==
+chemicaltools-bot@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/chemicaltools-bot/-/chemicaltools-bot-1.0.3.tgz#68ef90092abe429390f48f678e99230df90fdfa4"
+  integrity sha512-D28ol0qxWgSdD5zK7bWIEZVdQeggJUD2A+dBlKqZk3rNThY+caABKs1313nHDPeaUDj1JX7NIjt3sZJqRM2pnA==
   dependencies:
     chemicaltools "^1.0.15"
     i18next "^15.0.6"
