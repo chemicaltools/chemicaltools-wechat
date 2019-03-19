@@ -43,13 +43,13 @@ bytes@3.0.0:
   resolved "http://registry.npm.taobao.org/bytes/download/bytes-3.0.0.tgz#d32815404d689699f85a4ea4fa8755dd13a96048"
   integrity sha1-0ygVQE1olpn4Wk6k+odV3ROpYEg=
 
-chemicaltools-bot@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/chemicaltools-bot/-/chemicaltools-bot-1.0.3.tgz#68ef90092abe429390f48f678e99230df90fdfa4"
-  integrity sha512-D28ol0qxWgSdD5zK7bWIEZVdQeggJUD2A+dBlKqZk3rNThY+caABKs1313nHDPeaUDj1JX7NIjt3sZJqRM2pnA==
+chemicaltools-bot@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/chemicaltools-bot/-/chemicaltools-bot-1.0.5.tgz#1b59d8ed58980a50690b681f6b9a5b5295b73af2"
+  integrity sha512-ptiMfA7aUdF/kudR4gON6iS1UQovzAqk6JUI7Icmbak6idz/SdK+RlebngirV80LTwRUZ1Kzxe03ncQbRR2kfw==
   dependencies:
     chemicaltools "^1.0.15"
-    i18next "^15.0.6"
+    i18next "^15.0.7"
     string-format "^2.0.0"
 
 chemicaltools@^1.0.15:
@@ -190,10 +190,10 @@ http-errors@1.6.3, http-errors@~1.6.2, http-errors@~1.6.3:
     setprototypeof "1.1.0"
     statuses ">= 1.4.0 < 2"
 
-i18next@^15.0.6:
-  version "15.0.6"
-  resolved "http://registry.npm.taobao.org/i18next/download/i18next-15.0.6.tgz#2bad22b180043dce4ebc89763b07b752a5379675"
-  integrity sha1-K60isYAEPc5OvIl2Owe3UqU3lnU=
+i18next@^15.0.7:
+  version "15.0.7"
+  resolved "https://registry.yarnpkg.com/i18next/-/i18next-15.0.7.tgz#2f61240c8b2b6656233217a8eee07a09a5707fea"
+  integrity sha512-KCSmTOE0nsku53cI0sSBY21ftXhsAfCjcNQBx54Y0AxcTxSs+v+qGFQ38ab+vi6F4NZEm8JupO36vlWoeF47cA==
   dependencies:
     "@babel/runtime" "^7.3.1"
 
