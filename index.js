@@ -11,7 +11,11 @@ var config = {
 app.use(express.query());
 app.use('/', wechat(config, function (req, res, next) {
     var message = req.weixin;
-    res.reply(chemicaltoolsbot(message.Content, 'zh'))
+    if (message.MsgType === 'device_text') {
+        res.reply(chemicaltoolsbot(message.Content, 'zh'))
+    } else if (message.MsgType === 'device_event') {
+        res.reply(chemicaltoolsbot('help', 'zh'))
+    }
 }))
 
 module.exports = app
