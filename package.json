@@ -23,7 +23,7 @@
   "homepage": "https://github.com/njzjz/Chemical-Tools-wechat#readme",
   "dependencies": {
     "chemicaltools-bot": "^1.0.5",
-    "express": "^4.16.4",
+    "express": "^4.17.0",
     "wechat": "^2.1.0"
   }
 }
