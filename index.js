@@ -12,7 +12,12 @@ app.use(express.query());
 app.use('/', wechat(config, function (req, res, next) {
     var message = req.weixin;
     if (message.MsgType === 'device_event') {
-        res.reply(chemicaltoolsbot('help', 'zh'))
+        if (message.Event === 'subscribe_status' ||
+            message.Event === 'unsubscribe_status') {
+          res.reply(1);
+        } else {
+          res.reply(chemicaltoolsbot('help', 'zh'))
+        } 
     } else {
         res.reply(chemicaltoolsbot(message.Content, 'zh'))
     }
