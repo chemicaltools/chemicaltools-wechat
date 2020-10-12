@@ -87,9 +87,9 @@ chemicaltools-bot@^1.0.5:
     string-format "^2.0.0"
 
 chemicaltools@^1.2.4:
-  version "1.2.17"
-  resolved "https://registry.yarnpkg.com/chemicaltools/-/chemicaltools-1.2.17.tgz#0e7502e762ea3789e81614b5398964ee954b195f"
-  integrity sha512-iD+XUIEMH5yLvI5qjOkROLUDdwkZYiLfoGIRdfUomYOUTGXcG0O66H+r/ACS6g5s/JTRzJNTxBBrcQsVSPWhPw==
+  version "1.2.20"
+  resolved "https://registry.yarnpkg.com/chemicaltools/-/chemicaltools-1.2.20.tgz#3c8b478675cfabb5acf788cfc56369d987920cf8"
+  integrity sha512-0EwjRgEWbqqJQHb4kG0/QjIU94Vj/IClVghjHGGr0FG9HthYyRxgKveS4FSAv0b0/Y/SQNCe3duU9a4iNwB13g==
   dependencies:
     tiny-pinyin "^1.3.0"
 
@@ -275,9 +275,9 @@ http-errors@~1.7.2:
     toidentifier "1.0.0"
 
 i18next@^19.0.0:
-  version "19.8.1"
-  resolved "https://registry.yarnpkg.com/i18next/-/i18next-19.8.1.tgz#25a5cd3a96d7f7174096e94a042eb4179643358f"
-  integrity sha512-uDOyiSExuqIOoF1G5hzgyaPkds5RgOlLmklw/wR7vlsbmQ8lBuzjoV2qiL2H0jMp+xkdrHHjt0w00H0fuHpVWw==
+  version "19.8.2"
+  resolved "https://registry.yarnpkg.com/i18next/-/i18next-19.8.2.tgz#8a20ee098c4702f14aae6dee3ecc39245a6a161e"
+  integrity sha512-YWqkUpwnmeZxbNxhQ4BENC27BlXnq4kD6NlqMUwX7T6ZN3alNnBXsWrh/8mJ37BL5cKMZaqA0k/YUo4o6rLfpA==
   dependencies:
     "@babel/runtime" "^7.10.1"
 
