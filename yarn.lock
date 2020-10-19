@@ -3,9 +3,9 @@
 
 
 "@babel/runtime@^7.10.1":
-  version "7.11.2"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.11.2.tgz#f549c13c754cc40b87644b9fa9f09a6a95fe0736"
-  integrity sha512-TeWkU52so0mPtDcaCTxNBI/IHiz0pZgr8VEFqXFtZWpYD08ZB6FaSwVAS8MKRQAP3bYKiVjwysOJgMFY28o6Tw==
+  version "7.12.1"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.12.1.tgz#b4116a6b6711d010b2dad3b7b6e43bf1b9954740"
+  integrity sha512-J5AIf3vPj3UwXaAzb5j1xM4WAQDX3EMgemF8rjCP3SoW09LfRKAXQKt6CoVYl230P6iWdRcBbnLDDdnqWxZSCA==
   dependencies:
     regenerator-runtime "^0.13.4"
 
@@ -87,9 +87,9 @@ chemicaltools-bot@^1.0.5:
     string-format "^2.0.0"
 
 chemicaltools@^1.2.4:
-  version "1.2.20"
-  resolved "https://registry.yarnpkg.com/chemicaltools/-/chemicaltools-1.2.20.tgz#3c8b478675cfabb5acf788cfc56369d987920cf8"
-  integrity sha512-0EwjRgEWbqqJQHb4kG0/QjIU94Vj/IClVghjHGGr0FG9HthYyRxgKveS4FSAv0b0/Y/SQNCe3duU9a4iNwB13g==
+  version "1.2.21"
+  resolved "https://registry.yarnpkg.com/chemicaltools/-/chemicaltools-1.2.21.tgz#7e56eb455504c6bbb921867e15b67f1efda0a510"
+  integrity sha512-pdQgO/YHLdzIgiuIreSjgMxZ4f+mpU+AtzgAEorILq3wJGEE/ZWuYm/LWWJYiPo3j6qCZIXk7lSxNueC7PHxvQ==
   dependencies:
     tiny-pinyin "^1.3.0"
 
