@@ -94,9 +94,9 @@ chalk@^4.0.2:
     supports-color "^7.1.0"
 
 chemicaltools-bot@^1.0.5:
-  version "1.0.22"
-  resolved "https://registry.yarnpkg.com/chemicaltools-bot/-/chemicaltools-bot-1.0.22.tgz#c44823f92a0b120855a227d21279a48d30ea8e7d"
-  integrity sha512-2BKxs7a4qRqRHw6D7NYiiimUCLPLOJoDImnV090wreIM95IRHFICHJcuaXmmZqX0PVXYluStYCFgPjeZUMBFhw==
+  version "1.0.23"
+  resolved "https://registry.yarnpkg.com/chemicaltools-bot/-/chemicaltools-bot-1.0.23.tgz#fa81347cde2c072442697a4748df111e90616d3c"
+  integrity sha512-v+CcDay2sDHs8LH0thhhLIWlmL6JKMeUte3y1yDHP+x0xDX6TP0ZL7tiOU3Y6Y8oKqZcBO4rI5x+Isi3POlj4A==
   dependencies:
     chemicaltools "^1.2.4"
     i18next "^23.0.0"
@@ -308,9 +308,9 @@ http-errors@2.0.0:
     toidentifier "1.0.1"
 
 i18next@^23.0.0:
-  version "23.2.7"
-  resolved "https://registry.yarnpkg.com/i18next/-/i18next-23.2.7.tgz#1e528b71061ca62668d7d2b6586fb4e6cfe5adb4"
-  integrity sha512-EsbHHvF6b+p+B6Cht5fYWY7VE/WYOrqB1+DNwa1UpLTw6mG5g4tc8KCEjUUOSMUA2yqCsdYQP+PqVq5nBMtOtQ==
+  version "23.2.8"
+  resolved "https://registry.yarnpkg.com/i18next/-/i18next-23.2.8.tgz#dd54fab8f68c1ef2e0408249e042cf9cef683554"
+  integrity sha512-wU0pMlJ91ZbB89i77G3YQ11/pBQrzgWpxJYl7HFyA9aU9v3aHMI/oBKQmAJNURr0A8cLG4EHjgSMK8IqQTp4PQ==
   dependencies:
     "@babel/runtime" "^7.22.5"
 
