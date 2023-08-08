@@ -3,11 +3,11 @@
 
 
 "@babel/runtime@^7.22.5":
-  version "7.22.6"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.22.6.tgz#57d64b9ae3cff1d67eb067ae117dac087f5bd438"
-  integrity sha512-wDb5pWm4WDdF6LFUde3Jl8WzPA+3ZbxYqkC6xAXuD3irdEHN1k0NfTRrJD8ZD378SJ61miMLCqIOXYhd8x+AJQ==
+  version "7.22.10"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.22.10.tgz#ae3e9631fd947cb7e3610d3e9d8fef5f76696682"
+  integrity sha512-21t/fkKLMZI4pqP2wlmsQAWnYW1PDyKyyUV4vCi+B25ydmdaYTKXPwCj0BzSUnZf4seIiYvSA3jcZ3gdsMFkLQ==
   dependencies:
-    regenerator-runtime "^0.13.11"
+    regenerator-runtime "^0.14.0"
 
 accepts@~1.3.8:
   version "1.3.8"
@@ -94,9 +94,9 @@ chalk@^4.0.2:
     supports-color "^7.1.0"
 
 chemicaltools-bot@^1.0.5:
-  version "1.0.30"
-  resolved "https://registry.yarnpkg.com/chemicaltools-bot/-/chemicaltools-bot-1.0.30.tgz#ec8fac67edcb53ffae185244548b8843502a9f53"
-  integrity sha512-DaZBOidCy4/q6iJb5pGjuWWnkj6gNIW5ml3xdMt2wOUo8an09LxGdRS5fp//FqdqFv4BSMaKQhXG/i20xX5aKQ==
+  version "1.0.31"
+  resolved "https://registry.yarnpkg.com/chemicaltools-bot/-/chemicaltools-bot-1.0.31.tgz#73db640da4613bf87dd1f067d1020f768006494e"
+  integrity sha512-ZKW4+EFKL0k0Lvt7rsDBI3znNfEgBNQ1V/aG/zgIsQsmj6tO7dSqYJL2oYXJJE2mziKoneBXmuRfrSlF+0VvOg==
   dependencies:
     chemicaltools "^1.2.4"
     i18next "^23.0.0"
@@ -308,9 +308,9 @@ http-errors@2.0.0:
     toidentifier "1.0.1"
 
 i18next@^23.0.0:
-  version "23.4.2"
-  resolved "https://registry.yarnpkg.com/i18next/-/i18next-23.4.2.tgz#e68108be82287114e027afc5402bb7830d7f45c9"
-  integrity sha512-hkVPHKFLtn9iewdqHDiU+MGVIBk+bVFn5usw7CIeCn/SBcVKGTItGdjNPm2B8Lnz42CeHUlnSOTgsr5vbITjhA==
+  version "23.4.3"
+  resolved "https://registry.yarnpkg.com/i18next/-/i18next-23.4.3.tgz#100205c2f9aed424b89058b512ee77c6805fa744"
+  integrity sha512-EgwHA+R+WIJ/eypepS6RWzyiPp3JR8c3W7vyvgRcY2q9a4PQQHY96jugVF5CBHm0MvK8XBYCGUgtjd4R6UTvwA==
   dependencies:
     "@babel/runtime" "^7.22.5"
 
@@ -459,10 +459,10 @@ raw-body@2.5.1:
     iconv-lite "0.4.24"
     unpipe "1.0.0"
 
-regenerator-runtime@^0.13.11:
-  version "0.13.11"
-  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.11.tgz#f6dca3e7ceec20590d07ada785636a90cdca17f9"
-  integrity sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg==
+regenerator-runtime@^0.14.0:
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.14.0.tgz#5e19d68eb12d486f797e15a3c6a918f7cec5eb45"
+  integrity sha512-srw17NI0TUWHuGa5CFGGmhfNIeja30WMBfbslPNhf6JrqQlLN5gcrvig1oqPxiVaXb0oW0XRKtH6Nngs5lKCIA==
 
 safe-buffer@5.2.1:
   version "5.2.1"
