@@ -3,9 +3,9 @@
 
 
 "@babel/runtime@^7.22.5":
-  version "7.22.11"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.22.11.tgz#7a9ba3bbe406ad6f9e8dd4da2ece453eb23a77a4"
-  integrity sha512-ee7jVNlWN09+KftVOu9n7S8gQzD/Z6hN/I8VBRXW4P1+Xe7kJGXMwu8vds4aGIMHZnNbdpSWCfZZtinytpcAvA==
+  version "7.22.15"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.22.15.tgz#38f46494ccf6cf020bd4eed7124b425e83e523b8"
+  integrity sha512-T0O+aa+4w0u06iNmapipJXMV4HoUir03hpx3/YqXXhu9xim3w+dVphjFWl1OH8NbZHw5Lbm9k45drDkgq2VNNA==
   dependencies:
     regenerator-runtime "^0.14.0"
 
@@ -94,9 +94,9 @@ chalk@^4.0.2:
     supports-color "^7.1.0"
 
 chemicaltools-bot@^1.0.5:
-  version "1.0.34"
-  resolved "https://registry.yarnpkg.com/chemicaltools-bot/-/chemicaltools-bot-1.0.34.tgz#1f14cc4b057d40260b19f0b5a98983d4aa3165a9"
-  integrity sha512-Al4q2r35JTd1upQGvyY1FqDtGATeOjAN/MLWR6Lnj5JMwOjyfO4phzX3rc4ktAFR3uML8XpVBOgHTfH3QdQ06A==
+  version "1.0.35"
+  resolved "https://registry.yarnpkg.com/chemicaltools-bot/-/chemicaltools-bot-1.0.35.tgz#76cc250680c4f020d19e2fdef2fd5969a40acdc2"
+  integrity sha512-yx/odaUUK6e24kCgQ+e/BtM+TO09kcg3+yDQoXITQWbCQfnwNO29pUUG0FheSsCgcLWKO33UczsPpEL35Hd8fA==
   dependencies:
     chemicaltools "^1.2.4"
     i18next "^23.0.0"
@@ -308,9 +308,9 @@ http-errors@2.0.0:
     toidentifier "1.0.1"
 
 i18next@^23.0.0:
-  version "23.4.6"
-  resolved "https://registry.yarnpkg.com/i18next/-/i18next-23.4.6.tgz#10211e72d5bd29e274baae99c6cc0178b93a93f8"
-  integrity sha512-jBE8bui969Ygv7TVYp0pwDZB7+he0qsU+nz7EcfdqSh+QvKjEfl9YPRQd/KrGiMhTYFGkeuPaeITenKK/bSFDg==
+  version "23.4.9"
+  resolved "https://registry.yarnpkg.com/i18next/-/i18next-23.4.9.tgz#00a00449923c11070c466dad9244fe4c39d34298"
+  integrity sha512-F8YQ29LD6FvWS/aOYbZ4WqjDEuQZmug8akAM0QOcAtR+EuHHlBYf/JpsjeqUDdYiClmj2zE9rI9ZUWzN7W+trQ==
   dependencies:
     "@babel/runtime" "^7.22.5"
 
